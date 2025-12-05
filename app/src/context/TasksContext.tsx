@@ -29,19 +29,24 @@ export function TasksProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     async function loadTasks() {
       try {
-        // Try API first (Google Sheets)
-        const apiResult = await fetchTasksFromAPI();
-
         let loadedTasks: Task[];
-        if (apiResult.tasks.length > 0) {
-          loadedTasks = apiResult.tasks;
-          setDataSource('google');
-          console.log('Данные загружены из Google Sheets');
-        } else {
-          // Fallback to local CSV
+
+        // Try local CSV first for production reliability
+        try {
           loadedTasks = await parseTasks('/data/tasks.csv');
           setDataSource('local');
           console.log('Загружены локальные данные');
+        } catch (localErr) {
+          console.warn('Локальные данные недоступны, пробую API:', localErr);
+          // Fallback to API (Google Sheets)
+          const apiResult = await fetchTasksFromAPI();
+          if (apiResult.tasks.length > 0) {
+            loadedTasks = apiResult.tasks;
+            setDataSource('google');
+            console.log('Данные загружены из Google Sheets');
+          } else {
+            throw new Error('Нет доступных данных');
+          }
         }
 
         setTasks(loadedTasks);
