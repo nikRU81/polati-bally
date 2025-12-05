@@ -1,58 +1,58 @@
-import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { JWT } from 'google-auth-library';
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 
-const SPREADSHEET_ID = '1iP1kbWky0zZk--cX-Q7DbDmEt8TssXfzJmoLC-Yk3ps';
+export default async function handler(request: VercelRequest, response: VercelResponse) {
+    // Only allow GET
+    if (request.method !== 'GET') {
+        return response.status(405).json({ error: 'Method not allowed' });
+    }
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
-  // CORS
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET');
-  res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate=300');
+    try {
+        // 1. Get Credentials from Vercel Env
+        const rawCreds = process.env.GOOGLE_SERVICE_ACCOUNT;
+        if (!rawCreds) {
+            throw new Error('Missing GOOGLE_SERVICE_ACCOUNT environment variable');
+        }
 
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
-  }
+        // Handle potential escaped newlines in env vars (common Vercel issue)
+        const keys = JSON.parse(rawCreds);
 
-  try {
-    const credentials = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY || '{}');
+        // 2. Auth
+        const serviceAccountAuth = new JWT({
+            email: keys.client_email,
+            key: keys.private_key,
+            scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+        });
 
-    const auth = new JWT({
-      email: credentials.client_email,
-      key: credentials.private_key,
-      scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly'],
-    });
+        const doc = new GoogleSpreadsheet('1iP1kbWky0zZk--cX-Q7DbDmEt8TssXfzJmoLC-Yk3ps', serviceAccountAuth);
+        await doc.loadInfo();
 
-    const doc = new GoogleSpreadsheet(SPREADSHEET_ID, auth);
-    await doc.loadInfo();
+        // 3. Get Data
+        const sheet = doc.sheetsByIndex[0];
+        const rows = await sheet.getRows();
 
-    const sheet = doc.sheetsByIndex[0];
-    const rows = await sheet.getRows();
-    const headers = sheet.headerValues;
+        // 4. Transform to Clean Objects
+        const headers = sheet.headerValues;
+        const tasks = rows.map((row) => {
+            const obj: Record<string, any> = {};
+            headers.forEach((header) => {
+                obj[header] = row.get(header);
+            });
+            return obj;
+        });
 
-    const tasks = rows.map(row => {
-      const obj: Record<string, unknown> = {};
-      headers.forEach(header => {
-        // snake_case → camelCase
-        const key = header.replace(/_([a-z])/g, (_: string, l: string) => l.toUpperCase());
-        obj[key] = row.get(header);
-      });
-      return {
-        taskId: String(obj.taskId ?? ''),
-        category: String(obj.category ?? ''),
-        taskName: String(obj.taskName ?? ''),
-        basePoints: Number(obj.basePoints ?? 0),
-        frequency: obj.frequency ?? 'once',
-        condition: String(obj.condition ?? ''),
-        probability: Number(obj.probability ?? 1),
-        appliesToYear: String(obj.appliesToYear ?? 'all'),
-        description: String(obj.description ?? ''),
-      };
-    });
+        // Return compatible format for `utils/googleSheets.ts`
+        return response.status(200).json({
+            tasks: tasks,
+            source: 'google'
+        });
 
-    return res.status(200).json({ tasks, source: 'google' });
-  } catch (error) {
-    console.error('Google Sheets error:', error);
-    return res.status(500).json({ error: 'Не удалось загрузить данные', tasks: [] });
-  }
+    } catch (error: any) {
+        console.error('API Error:', error);
+        return response.status(500).json({
+            error: 'Failed to fetch tasks',
+            details: error.message
+        });
+    }
 }
