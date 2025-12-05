@@ -2,12 +2,14 @@ import { createContext, useContext, useState, useEffect, useCallback } from 'rea
 import type { ReactNode } from 'react';
 import type { Task } from '../types';
 import { parseTasks } from '../utils/csvParser';
+import { fetchTasksFromAPI } from '../utils/googleSheets';
 
 interface TasksContextValue {
   tasks: Task[];
   originalTasks: Task[];
   isLoading: boolean;
   error: string | null;
+  dataSource: 'google' | 'local';
   updateTask: (taskId: string, updates: Partial<Task>) => void;
   addTask: (task: Omit<Task, 'taskId'>) => void;
   deleteTask: (taskId: string) => void;
@@ -21,12 +23,27 @@ export function TasksProvider({ children }: { children: ReactNode }) {
   const [originalTasks, setOriginalTasks] = useState<Task[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [dataSource, setDataSource] = useState<'google' | 'local'>('local');
 
-  // Load tasks from CSV on mount
+  // Load tasks from API (Google Sheets) or fallback to local CSV
   useEffect(() => {
     async function loadTasks() {
       try {
-        const loadedTasks = await parseTasks('/data/tasks.csv');
+        // Try API first (Google Sheets)
+        const apiResult = await fetchTasksFromAPI();
+
+        let loadedTasks: Task[];
+        if (apiResult.tasks.length > 0) {
+          loadedTasks = apiResult.tasks;
+          setDataSource('google');
+          console.log('Данные загружены из Google Sheets');
+        } else {
+          // Fallback to local CSV
+          loadedTasks = await parseTasks('/data/tasks.csv');
+          setDataSource('local');
+          console.log('Загружены локальные данные');
+        }
+
         setTasks(loadedTasks);
         setOriginalTasks(loadedTasks);
       } catch (err) {
@@ -78,6 +95,7 @@ export function TasksProvider({ children }: { children: ReactNode }) {
         originalTasks,
         isLoading,
         error,
+        dataSource,
         updateTask,
         addTask,
         deleteTask,

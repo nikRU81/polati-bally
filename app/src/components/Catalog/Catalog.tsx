@@ -24,10 +24,10 @@ export function Catalog() {
       prices: years.map(year => ({
         year,
         calendarYear: settings.startYear + year - 1,
-        price: calculatePriceWithInflation(item.basePrice, settings.inflationRate, year),
+        price: calculatePriceWithInflation(item.basePrice, settings.inflationRate, year, settings.noInflation),
       })),
     }));
-  }, [items, settings.inflationRate, settings.simulationYears, settings.startYear]);
+  }, [items, settings.inflationRate, settings.simulationYears, settings.startYear, settings.noInflation]);
 
   if (isLoading) {
     return (

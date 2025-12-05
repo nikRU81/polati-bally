@@ -1,0 +1,12 @@
+parameter,value,type,min,max,description
+base_salary,1200000,number,500000,5000000,Базовая годовая зарплата (руб.)
+budget_percent,1.0,number,0.1,10.0,Процент от ЗП на программу лояльности
+inflation_rate,15.0,number,0,50,Годовая инфляция ЗП и цен (%)
+indexation_period,3,number,1,10,Период индексации ставок баллов (лет)
+indexation_coefficient,1.52,number,1.0,3.0,Коэффициент индексации (накопленная инфляция)
+simulation_years,5,number,1,10,Период моделирования (лет)
+max_budget_deviation,2.0,number,0,10,Максимальное отклонение от бюджета (%)
+allowance_rounding,100,number,10,1000,Округление добавок (баллов)
+points_rounding,10,number,1,100,Округление индексированных баллов (до десятков)
+start_year,2025,number,2024,2030,Год начала программы
+reference_item_id,CAT_006,string,,,ID референсного товара для проверки покупательной способности

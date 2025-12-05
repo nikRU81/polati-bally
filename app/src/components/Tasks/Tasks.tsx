@@ -12,6 +12,7 @@ export function Tasks() {
     tasks: allTasks,
     isLoading,
     error,
+    dataSource,
     updateTask,
     addTask,
     deleteTask,
@@ -117,7 +118,15 @@ export function Tasks() {
       <div className="flex justify-between items-center mb-6">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Задания</h1>
-          <p className="text-gray-500 mt-1">Редактор заданий программы лояльности</p>
+          <div className="flex items-center gap-2 mt-1">
+            <p className="text-gray-500">Редактор заданий программы лояльности</p>
+            <span className={`inline-flex items-center px-2 py-0.5 rounded text-xs font-medium ${dataSource === 'google'
+                ? 'bg-green-100 text-green-800'
+                : 'bg-yellow-100 text-yellow-800'
+              }`}>
+              {dataSource === 'google' ? 'Google Sheets (Live)' : 'Local Backup'}
+            </span>
+          </div>
         </div>
         <div className="flex gap-2">
           <button
