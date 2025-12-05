@@ -31,22 +31,22 @@ export function TasksProvider({ children }: { children: ReactNode }) {
       try {
         let loadedTasks: Task[];
 
-        // Try local CSV first for production reliability
+        // Try API first (Google Sheets)
         try {
-          loadedTasks = await parseTasks('/data/tasks.csv');
-          setDataSource('local');
-          console.log('Загружены локальные данные');
-        } catch (localErr) {
-          console.warn('Локальные данные недоступны, пробую API:', localErr);
-          // Fallback to API (Google Sheets)
           const apiResult = await fetchTasksFromAPI();
           if (apiResult.tasks.length > 0) {
             loadedTasks = apiResult.tasks;
             setDataSource('google');
             console.log('Данные загружены из Google Sheets');
           } else {
-            throw new Error('Нет доступных данных');
+            throw new Error('API returned empty data');
           }
+        } catch (apiErr) {
+          console.warn('API недоступен, пробую локальные данные:', apiErr);
+          // Fallback to local CSV
+          loadedTasks = await parseTasks('/data/tasks.csv');
+          setDataSource('local');
+          console.log('Загружены локальные данные (fallback)');
         }
 
         setTasks(loadedTasks);
