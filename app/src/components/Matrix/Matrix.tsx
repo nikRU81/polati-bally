@@ -101,7 +101,10 @@ export function Matrix() {
       years.forEach((year, idx) => {
         let yearPoints = 0;
 
-        if (task.appliesToYear === 'all') {
+        // Преобразуем appliesToYear в строку для единообразной обработки
+        const appliesToYearStr = String(task.appliesToYear);
+
+        if (appliesToYearStr === 'all') {
           // Ежегодное задание
           if (task.frequency === 'yearly') {
             yearPoints = task.basePoints * task.probability;
@@ -110,7 +113,7 @@ export function Matrix() {
           }
         } else {
           // Задание для конкретного года или списка лет
-          const taskYears = task.appliesToYear.split(';').map(y => parseInt(y, 10));
+          const taskYears = appliesToYearStr.split(';').map(y => parseInt(y.trim(), 10));
           if (taskYears.includes(year)) {
             yearPoints = task.basePoints * task.probability;
           }
