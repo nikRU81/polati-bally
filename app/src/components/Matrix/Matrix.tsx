@@ -4,6 +4,8 @@ import { useSettingsContext } from '../../context/SettingsContext';
 import { formatNumber } from '../../utils/formatters';
 import { getIndexation } from '../../utils/calculations';
 
+type YearRangeType = 'all' | '1-5' | '6-10' | '11-15' | '16-20' | '21-25' | '26-30' | '31-35' | '36-40';
+
 interface GroupedTask {
   name: string;
   category: string;
@@ -17,6 +19,25 @@ export function Matrix() {
   const { tasks, isLoading, error } = useTasksContext();
   const { settings } = useSettingsContext();
   const [collapsedCategories, setCollapsedCategories] = useState<Set<string>>(new Set());
+  const [yearRange, setYearRange] = useState<YearRangeType>('1-5');
+
+  // Определяем диапазон годов для отображения
+  const { displayYears, displayYearIndices } = useMemo(() => {
+    const allYears = Array.from({ length: settings.simulationYears }, (_, i) => i + 1);
+
+    if (yearRange === 'all') {
+      return {
+        displayYears: allYears,
+        displayYearIndices: allYears.map((_, i) => i)
+      };
+    }
+
+    const [start, end] = yearRange.split('-').map(Number);
+    const filtered = allYears.filter(y => y >= start && y <= end);
+    const indices = filtered.map(y => y - 1);
+
+    return { displayYears: filtered, displayYearIndices: indices };
+  }, [yearRange, settings.simulationYears]);
 
   // Группировка заданий и расчёт баллов по годам
   const groupedTasks = useMemo(() => {
@@ -25,19 +46,20 @@ export function Matrix() {
     const years = Array.from({ length: settings.simulationYears }, (_, i) => i + 1);
     const groups: Map<string, GroupedTask> = new Map();
 
-    // Группируем однородные задания (например, Эволюция)
+    // Группируем однородные задания
     tasks.forEach(task => {
       // Определяем ключ группировки
       let groupKey = task.taskName;
       let groupName = task.taskName;
 
-      // Объединяем однородные задания
+      // Объединяем однородные задания, НО НЕ объекты Герб
       if (task.taskName.startsWith('Эволюция')) {
         groupKey = 'Эволюция (смены)';
         groupName = 'Эволюция (смены)';
       } else if (task.taskName.startsWith('Кочевник')) {
-        groupKey = 'Кочевник (объекты)';
-        groupName = 'Кочевник (объекты)';
+        // Кочевник оставляем детализированным
+        groupKey = task.taskName;
+        groupName = task.taskName;
       } else if (task.taskName.startsWith('Ночная Сова')) {
         groupKey = 'Ночная Сова';
         groupName = 'Ночная Сова';
@@ -50,6 +72,16 @@ export function Matrix() {
       } else if (task.taskName.startsWith('ПОЛАТИ БОНУС')) {
         groupKey = 'ПОЛАТИ БОНУС';
         groupName = 'ПОЛАТИ БОНУС';
+      } else if (task.taskName.startsWith('Путь к успеху')) {
+        groupKey = 'Путь к успеху';
+        groupName = 'Путь к успеху';
+      } else if (task.taskName.startsWith('Грамота ОТ')) {
+        groupKey = 'Грамоты ОТ';
+        groupName = 'Грамоты ОТ';
+      } else if (task.taskName.startsWith('Объект')) {
+        // Объекты Герб оставляем детализированными
+        groupKey = task.taskName;
+        groupName = task.taskName;
       }
 
       if (!groups.has(groupKey)) {
@@ -77,9 +109,9 @@ export function Matrix() {
             yearPoints = task.basePoints * task.probability;
           }
         } else {
-          // Задание для конкретного года
-          const taskYear = parseInt(task.appliesToYear, 10);
-          if (taskYear === year) {
+          // Задание для конкретного года или списка лет
+          const taskYears = task.appliesToYear.split(';').map(y => parseInt(y, 10));
+          if (taskYears.includes(year)) {
             yearPoints = task.basePoints * task.probability;
           }
         }
@@ -168,6 +200,19 @@ export function Matrix() {
 
   const years = Array.from({ length: settings.simulationYears }, (_, i) => i + 1);
 
+  // Опции для выбора диапазона лет
+  const yearRangeOptions: { value: YearRangeType; label: string }[] = [
+    { value: '1-5', label: 'Годы 1-5' },
+    { value: '6-10', label: 'Годы 6-10' },
+    { value: '11-15', label: 'Годы 11-15' },
+    { value: '16-20', label: 'Годы 16-20' },
+    { value: '21-25', label: 'Годы 21-25' },
+    { value: '26-30', label: 'Годы 26-30' },
+    { value: '31-35', label: 'Годы 31-35' },
+    { value: '36-40', label: 'Годы 36-40' },
+    { value: 'all', label: 'Все годы' },
+  ];
+
   return (
     <div className="p-6">
       <div className="mb-6">
@@ -178,6 +223,28 @@ export function Matrix() {
             <span className="ml-2 text-orange-600 font-medium">(без инфляции)</span>
           )}
         </p>
+      </div>
+
+      {/* Фильтр по годам */}
+      <div className="mb-4 bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+        <label className="block text-sm font-medium text-gray-700 mb-2">
+          Период отображения
+        </label>
+        <div className="flex flex-wrap gap-2">
+          {yearRangeOptions.map(option => (
+            <button
+              key={option.value}
+              onClick={() => setYearRange(option.value)}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                yearRange === option.value
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
@@ -191,7 +258,7 @@ export function Matrix() {
                 <th className="px-3 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                   Категория
                 </th>
-                {years.map(year => (
+                {displayYears.map(year => (
                   <th key={year} className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Год {year}
                     <div className="text-gray-400 font-normal normal-case">
@@ -234,7 +301,7 @@ export function Matrix() {
                           </span>
                         </div>
                       </td>
-                      {years.map((_, idx) => {
+                      {displayYearIndices.map((idx) => {
                         const yearTotal = categoryTasks.reduce((sum, task) => sum + task.pointsPerYear[idx], 0);
                         return (
                           <td key={idx} className="px-4 py-2 text-right text-sm font-medium text-gray-700 bg-gray-100">
@@ -259,16 +326,19 @@ export function Matrix() {
                               {task.category}
                             </span>
                           </td>
-                          {task.pointsPerYear.map((points, yIdx) => (
-                            <td
-                              key={yIdx}
-                              className={`px-4 py-2 text-right text-sm ${
-                                points > 0 ? 'text-gray-900' : 'text-gray-300'
-                              }`}
-                            >
-                              {points > 0 ? formatNumber(Math.round(points)) : '—'}
-                            </td>
-                          ))}
+                          {displayYearIndices.map((yIdx) => {
+                            const points = task.pointsPerYear[yIdx];
+                            return (
+                              <td
+                                key={yIdx}
+                                className={`px-4 py-2 text-right text-sm ${
+                                  points > 0 ? 'text-gray-900' : 'text-gray-300'
+                                }`}
+                              >
+                                {points > 0 ? formatNumber(Math.round(points)) : '—'}
+                              </td>
+                            );
+                          })}
                           <td className="px-4 py-2 text-right text-sm font-semibold text-blue-600 bg-blue-50">
                             {formatNumber(Math.round(rowTotal))}
                           </td>
@@ -285,9 +355,9 @@ export function Matrix() {
                   ИТОГО
                 </td>
                 <td className="px-3 py-3"></td>
-                {yearTotals.map((total, idx) => (
+                {displayYearIndices.map((idx) => (
                   <td key={idx} className="px-4 py-3 text-right text-sm text-gray-900">
-                    {formatNumber(Math.round(total))}
+                    {formatNumber(Math.round(yearTotals[idx]))}
                   </td>
                 ))}
                 <td className="px-4 py-3 text-right text-sm text-blue-700 bg-blue-100">
@@ -312,7 +382,7 @@ export function Matrix() {
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sticky left-0 bg-gray-50 z-10">
                   Категория
                 </th>
-                {years.map(year => (
+                {displayYears.map(year => (
                   <th key={year} className="px-4 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Год {year}
                     <div className="text-gray-400 font-normal normal-case">
@@ -340,7 +410,8 @@ export function Matrix() {
                     <td className="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 sticky left-0 bg-white">
                       {category}
                     </td>
-                    {categoryYearTotals.map((categoryYearTotal, idx) => {
+                    {displayYearIndices.map((idx) => {
+                      const categoryYearTotal = categoryYearTotals[idx];
                       const percent = yearTotals[idx] > 0
                         ? (categoryYearTotal / yearTotals[idx]) * 100
                         : 0;
@@ -362,7 +433,7 @@ export function Matrix() {
                 <td className="px-4 py-3 whitespace-nowrap text-sm text-gray-900 sticky left-0 bg-gray-100">
                   ИТОГО
                 </td>
-                {years.map((_, idx) => (
+                {displayYearIndices.map((idx) => (
                   <td key={idx} className="px-4 py-3 text-right text-sm text-gray-900">
                     100.0%
                   </td>
