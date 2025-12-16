@@ -270,15 +270,16 @@ export function Matrix() {
                   </th>
                 ))}
                 <th className="px-4 py-3 text-right text-xs font-medium text-blue-600 uppercase tracking-wider bg-blue-50">
-                  Всего
+                  Сумма за период
                 </th>
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
               {tasksByCategory.map(([category, categoryTasks]) => {
                 const isCollapsed = collapsedCategories.has(category);
-                const categoryTotal = categoryTasks.reduce(
-                  (sum, task) => sum + task.pointsPerYear.reduce((a, b) => a + b, 0),
+                // Сумма только по отображаемым годам!
+                const categoryDisplayTotal = categoryTasks.reduce(
+                  (sum, task) => sum + displayYearIndices.reduce((s, idx) => s + task.pointsPerYear[idx], 0),
                   0
                 );
                 return (
@@ -313,12 +314,13 @@ export function Matrix() {
                         );
                       })}
                       <td className="px-4 py-2 text-right text-sm font-semibold text-blue-600 bg-gray-100">
-                        {formatNumber(Math.round(categoryTotal))}
+                        {formatNumber(Math.round(categoryDisplayTotal))}
                       </td>
                     </tr>
                     {/* Задания категории */}
                     {!isCollapsed && categoryTasks.map((task, idx) => {
-                      const rowTotal = task.pointsPerYear.reduce((a, b) => a + b, 0);
+                      // Сумма только по отображаемым годам!
+                      const rowDisplayTotal = displayYearIndices.reduce((sum, yIdx) => sum + task.pointsPerYear[yIdx], 0);
                       return (
                         <tr key={idx} className="hover:bg-gray-50">
                           <td className="px-4 py-2 whitespace-nowrap text-sm font-medium text-gray-900 sticky left-0 bg-white">
@@ -343,7 +345,7 @@ export function Matrix() {
                             );
                           })}
                           <td className="px-4 py-2 text-right text-sm font-semibold text-blue-600 bg-blue-50">
-                            {formatNumber(Math.round(rowTotal))}
+                            {formatNumber(Math.round(rowDisplayTotal))}
                           </td>
                         </tr>
                       );
@@ -364,7 +366,7 @@ export function Matrix() {
                   </td>
                 ))}
                 <td className="px-4 py-3 text-right text-sm text-blue-700 bg-blue-100">
-                  {formatNumber(Math.round(yearTotals.reduce((a, b) => a + b, 0)))}
+                  {formatNumber(Math.round(displayYearIndices.reduce((sum, idx) => sum + yearTotals[idx], 0)))}
                 </td>
               </tr>
             </tbody>
@@ -376,7 +378,7 @@ export function Matrix() {
       <div className="mt-6 bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
         <div className="bg-gradient-to-r from-purple-50 to-blue-50 px-6 py-3 border-b border-gray-200">
           <h2 className="text-lg font-semibold text-gray-900">Распределение по категориям (%)</h2>
-          <p className="text-sm text-gray-600 mt-1">Доля каждой категории от общего объёма начислений</p>
+          <p className="text-sm text-gray-600 mt-1">Доля каждой категории от общего объёма начислений за выбранный период</p>
         </div>
         <div className="overflow-x-auto">
           <table className="min-w-full divide-y divide-gray-200">
@@ -403,9 +405,10 @@ export function Matrix() {
                 const categoryYearTotals = years.map((_, idx) =>
                   categoryTasks.reduce((sum, task) => sum + task.pointsPerYear[idx], 0)
                 );
-                const categoryTotal = categoryYearTotals.reduce((a, b) => a + b, 0);
-                const avgPercent = categoryTotal > 0
-                  ? (categoryTotal / yearTotals.reduce((a, b) => a + b, 0)) * 100
+                const categoryDisplayTotal = displayYearIndices.reduce((sum, idx) => sum + categoryYearTotals[idx], 0);
+                const totalDisplaySum = displayYearIndices.reduce((sum, idx) => sum + yearTotals[idx], 0);
+                const avgPercent = totalDisplaySum > 0
+                  ? (categoryDisplayTotal / totalDisplaySum) * 100
                   : 0;
 
                 return (
