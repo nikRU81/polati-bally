@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ascii"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  
+  <dc:title>&#1055;&#1054;&#1051;&#1040;&#1058;&#1048; &#1041;&#1040;&#1051;&#1051;&#1067; - &#1055;&#1088;&#1086;&#1075;&#1088;&#1072;&#1084;&#1084;&#1072; &#1083;&#1086;&#1103;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080;</dc:title>
+  
+  
+  <dc:subject>PptxGenJS Presentation</dc:subject>
+  
+  
+  <dc:creator>&#1055;&#1054;&#1051;&#1040;&#1058;&#1048;</dc:creator>
+  
+  
+  <cp:lastModifiedBy>&#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1081; &#1050;&#1086;&#1079;&#1083;&#1086;&#1074;</cp:lastModifiedBy>
+  
+  
+  <cp:revision>3</cp:revision>
+  
+  
+  <dcterms:created xsi:type="dcterms:W3CDTF">2025-12-15T14:43:57Z</dcterms:created>
+  
+  
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-12-16T15:23:23Z</dcterms:modified>
+  
+
+</cp:coreProperties>

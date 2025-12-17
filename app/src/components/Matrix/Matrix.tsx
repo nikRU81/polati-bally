@@ -25,6 +25,12 @@ export function Matrix() {
   const { displayYears, displayYearIndices } = useMemo(() => {
     const allYears = Array.from({ length: settings.simulationYears }, (_, i) => i + 1);
 
+    console.log('Matrix year filter:', {
+      yearRange,
+      simulationYears: settings.simulationYears,
+      allYears
+    });
+
     if (yearRange === 'all') {
       return {
         displayYears: allYears,
@@ -35,6 +41,8 @@ export function Matrix() {
     const [start, end] = yearRange.split('-').map(Number);
     const filtered = allYears.filter(y => y >= start && y <= end);
     const indices = filtered.map(y => y - 1);
+
+    console.log('Filtered years:', { start, end, filtered, indices });
 
     return { displayYears: filtered, displayYearIndices: indices };
   }, [yearRange, settings.simulationYears]);
@@ -247,6 +255,10 @@ export function Matrix() {
               {option.label}
             </button>
           ))}
+        </div>
+        <div className="mt-2 text-xs text-gray-500">
+          Отображается {displayYears.length} {displayYears.length === 1 ? 'год' : displayYears.length < 5 ? 'года' : 'лет'}:
+          {displayYears.length > 0 ? ` ${displayYears[0]}-${displayYears[displayYears.length - 1]}` : ' нет данных'}
         </div>
       </div>
 

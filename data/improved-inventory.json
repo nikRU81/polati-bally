@@ -1,0 +1,2931 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 3.41,
+      "top": 1.35,
+      "width": 3.19,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "НОВАЯ ПРОГРАММА ЛОЯЛЬНОСТИ",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.07,
+      "top": 2.07,
+      "width": 5.64,
+      "height": 0.58,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.27
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОЛАТИ БАЛЛЫ",
+          "alignment": "CENTER",
+          "space_after": 12.0,
+          "font_name": "Arial",
+          "font_size": 42.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 42.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 2.07,
+      "top": 2.97,
+      "width": 5.87,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.52
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Выполняй задания — копи баллы — получай подарки",
+          "alignment": "CENTER",
+          "space_after": 30.0,
+          "font_name": "Arial",
+          "font_size": 16.5,
+          "color": "FFFFFF",
+          "line_spacing": 23.1
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.42,
+      "top": 5.2,
+      "width": 2.41,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРЕЗЕНТАЦИЯ КОМПАНИИ «ПОЛАТИ»",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.29,
+      "width": 4.69,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Для кого программа?",
+          "font_name": "Arial",
+          "font_size": 21.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.4,
+      "width": 4.12,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ЦЕЛЕВАЯ АУДИТОРИЯ",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 9.75,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 13.65
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 1.68,
+      "width": 4.12,
+      "height": 0.5,
+      "paragraphs": [
+        {
+          "text": "Программа лояльности для всех сотрудников компании ПОЛАТИ",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "color": "181716",
+          "line_spacing": 18.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.12,
+      "top": 1.57,
+      "width": 4.55,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ЭТАПЫ ВНЕДРЕНИЯ",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "666666",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.44,
+      "top": 2.17,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "008CFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 5.88,
+      "top": 2.11,
+      "width": 2.58,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2026 год — Пилот",
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 5.88,
+      "top": 2.41,
+      "width": 2.58,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Сотрудники рабочих специальностей",
+          "space_before": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.62,
+      "top": 2.76,
+      "width": 4.12,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРИНЦИП РАБОТЫ",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 9.75,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 13.65
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.62,
+      "top": 3.03,
+      "width": 4.12,
+      "height": 0.5,
+      "paragraphs": [
+        {
+          "text": "Баллы начисляются автоматически за выполнение заданий в приложении ПОЛАТИ",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "color": "181716",
+          "line_spacing": 18.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 5.44,
+      "top": 3.14,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 5.88,
+      "top": 3.08,
+      "width": 2.71,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2027 год — Расширение",
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 5.88,
+      "top": 3.38,
+      "width": 2.71,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ИТР и сотрудники центрального офиса",
+          "space_before": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "color": "666666",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 0.62,
+      "top": 4.12,
+      "width": 4.12,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КЛЮЧЕВОЕ ПРЕИМУЩЕСТВО",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 9.75,
+          "bold": true,
+          "color": "78B832",
+          "line_spacing": 13.65
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.62,
+      "top": 4.39,
+      "width": 4.12,
+      "height": 0.5,
+      "paragraphs": [
+        {
+          "text": "Баллы никогда не сгорают — копите без ограничений",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "color": "181716",
+          "line_spacing": 18.0
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 5.44,
+      "top": 4.11,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "3",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 9.51,
+      "top": 5.2,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.29,
+      "width": 4.69,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Что такое ПОЛАТИ БАЛЛЫ?",
+          "font_name": "Arial",
+          "font_size": 21.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.86,
+      "top": 1.4,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.98,
+      "top": 1.4,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 7.11,
+      "top": 1.4,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "3",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.67,
+      "top": 2.13,
+      "width": 2.46,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ВЫПОЛНЯЙ",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.79,
+      "top": 2.13,
+      "width": 2.46,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КОПИ",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "bold": true,
+          "color": "FF6700",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 6.92,
+      "top": 2.13,
+      "width": 2.46,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ОБМЕНИВАЙ",
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "bold": true,
+          "color": "78B832",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.67,
+      "top": 2.64,
+      "width": 2.46,
+      "height": 0.7,
+      "paragraphs": [
+        {
+          "text": "Выполняй задания из разных категорий: обучение, смены, карьера, лояльность и другие",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "color": "181716",
+          "line_spacing": 16.88
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 3.79,
+      "top": 2.64,
+      "width": 2.46,
+      "height": 0.7,
+      "paragraphs": [
+        {
+          "text": "Накапливай баллы на своём счёте в приложении ПОЛАТИ. Баллы никогда не сгорают!",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "color": "181716",
+          "line_spacing": 16.88
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 6.92,
+      "top": 2.64,
+      "width": 2.46,
+      "height": 0.7,
+      "paragraphs": [
+        {
+          "text": "Обменивай баллы на ценные подарки в интернет-магазине ПОЛАТИ ПАЛАТКА",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "color": "181716",
+          "line_spacing": 16.88
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 1.0,
+      "top": 4.26,
+      "width": 0.28,
+      "height": 0.7,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "Arial",
+          "font_size": 36.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 50.4
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.78,
+      "top": 4.28,
+      "width": 2.68,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КУРС ОБМЕНА",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 1.78,
+      "top": 4.53,
+      "width": 2.68,
+      "height": 0.41,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "1 БАЛЛ = 1 РУБЛЬ",
+          "font_name": "Arial",
+          "font_size": 21.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 29.4
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.64,
+      "top": 4.37,
+      "width": 2.61,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРОСТОЙ РАСЧЁТ",
+          "alignment": "RIGHT",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 9.51,
+      "top": 5.2,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "3",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "left": 4.61,
+      "top": 2.0,
+      "width": 0.79,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "РАЗДЕЛ",
+          "alignment": "CENTER",
+          "space_after": 12.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.13,
+      "top": 2.53,
+      "width": 5.74,
+      "height": 0.5,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.27
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КАТЕГОРИИ ЗАДАНИЙ",
+          "alignment": "CENTER",
+          "space_after": 12.0,
+          "font_name": "Arial",
+          "font_size": 36.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 36.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 2.66,
+      "top": 3.37,
+      "width": 4.68,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "10 категорий • Более 130 способов заработать баллы",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "FFFFFF",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 9.51,
+      "top": 5.2,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "4",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.25,
+      "width": 4.69,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "За что можно получить баллы?",
+          "font_name": "Arial",
+          "font_size": 19.5,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 19.5
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.71,
+      "top": 1.8,
+      "width": 2.41,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ОБУЧЕНИЕ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.82,
+      "top": 1.66,
+      "width": 2.41,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "СМЕНЫ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.93,
+      "top": 1.8,
+      "width": 2.41,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КАРЬЕРА",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.58,
+      "top": 2.45,
+      "width": 2.61,
+      "height": 1.88,
+      "paragraphs": [
+        {
+          "text": "Велком бонус",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Ачивка обучение (прошел обучение в УЦ)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Повторное обучение на другую специальность",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Золотая Медаль УЦ",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.69,
+      "top": 2.3,
+      "width": 2.61,
+      "height": 2.17,
+      "paragraphs": [
+        {
+          "text": "Эволюция (за каждый уровень)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Ачивка Герб (за каждый)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Ачивка Кочевник (за каждый уровень)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Ночная Сова (за каждый уровень)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 6.81,
+      "top": 2.45,
+      "width": 2.61,
+      "height": 1.88,
+      "paragraphs": [
+        {
+          "text": "Бригадир (первый раз в акт бригадиром)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Повышение категории",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Из W в I",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Изменение должности рабочей специальности",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.42,
+      "top": 5.16,
+      "width": 0.72,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.29
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Часть 1 из 3",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "666666",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 9.51,
+      "top": 5.16,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "5",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-5": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.25,
+      "width": 4.69,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "За что можно получить баллы?",
+          "font_name": "Arial",
+          "font_size": 19.5,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 19.5
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.71,
+      "top": 1.86,
+      "width": 2.41,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПУТЬ К УСПЕХУ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.82,
+      "top": 1.6,
+      "width": 2.41,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ЛОЯЛЬНОСТЬ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.93,
+      "top": 1.98,
+      "width": 2.41,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ОХРАНА ТРУДА",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.58,
+      "top": 2.5,
+      "width": 2.61,
+      "height": 0.58,
+      "paragraphs": [
+        {
+          "text": "Переход на уровень программы",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.69,
+      "top": 2.25,
+      "width": 2.61,
+      "height": 1.21,
+      "paragraphs": [
+        {
+          "text": "ПОЛАТИ БОНУС (разовое достижение уровня)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "ПОЛАТИ СТАЖ (переход на уровень)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 6.81,
+      "top": 2.63,
+      "width": 2.61,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.19
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Грамота охраны труда",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.69,
+      "top": 3.48,
+      "width": 2.45,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ОСОБЫЕ НАГРАДЫ",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "3333FF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.69,
+      "top": 3.68,
+      "width": 2.45,
+      "height": 0.48,
+      "paragraphs": [
+        {
+          "text": "Награждение за каждые 500 смен в компании — открывает доступ к эксклюзивным подаркам",
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "181716",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 6.91,
+      "top": 3.36,
+      "width": 2.45,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "СПЕЦИАЛЬНЫЕ ПОДАРКИ",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "D41D3C",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 6.91,
+      "top": 3.56,
+      "width": 2.45,
+      "height": 0.48,
+      "paragraphs": [
+        {
+          "text": "Сотрудники с наградами по ОТ получают доступ к эксклюзивным подаркам в приложении",
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "181716",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 3.8,
+      "top": 3.89,
+      "width": 2.45,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ИНТЕГРАЦИЯ ПРОГРАММ",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 3.8,
+      "top": 4.1,
+      "width": 2.45,
+      "height": 0.32,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Баллы за достижения в других программах лояльности ПОЛАТИ",
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "181716",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.42,
+      "top": 5.16,
+      "width": 0.72,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.29
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Часть 2 из 3",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "666666",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 9.51,
+      "top": 5.16,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "6",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.25,
+      "width": 4.69,
+      "height": 0.25,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "За что можно получить баллы?",
+          "font_name": "Arial",
+          "font_size": 18.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 18.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.54,
+      "top": 1.66,
+      "width": 1.86,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "МЕЖВАХТА",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.27,
+      "top": 1.18,
+      "width": 1.86,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "АКТИВНОСТИ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 2.91,
+      "top": 2.0,
+      "width": 1.86,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРИВЕДИ ДРУГА",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.19,
+      "top": 1.79,
+      "width": 1.99,
+      "height": 3.12,
+      "paragraphs": [
+        {
+          "text": "Актуализация номера телефона",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Добавление размера СИЗ",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Значимые оценки ИТР (3+ в месяц)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Полное прохождение опроса",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Наклейка ПОЛАТИ на машине",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 7.64,
+      "top": 1.74,
+      "width": 1.86,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "СОБЫТИЯ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.46,
+      "top": 2.27,
+      "width": 1.99,
+      "height": 2.12,
+      "paragraphs": [
+        {
+          "text": "Возврат на 2-ю вахту после полной 1-й",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Возврат на 3-ю вахту (для новичков)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Межвахтовый отпуск до 30 дней",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 2.82,
+      "top": 2.61,
+      "width": 1.99,
+      "height": 0.58,
+      "paragraphs": [
+        {
+          "text": "Друг отработал 1 вахту (60-80 смен)",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 7.55,
+      "top": 2.35,
+      "width": 1.99,
+      "height": 1.96,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.4
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Новый год",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "23 февраля",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "8 марта",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "День строителя",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "День рождения",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        },
+        {
+          "text": "Рождение ребёнка",
+          "bullet": true,
+          "level": 0,
+          "space_after": 6.0,
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "181716",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 2.91,
+      "top": 3.57,
+      "width": 1.86,
+      "height": 0.13,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "БОНУС",
+          "font_name": "Arial",
+          "font_size": 6.75,
+          "bold": true,
+          "color": "FF6700",
+          "line_spacing": 9.45
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 2.91,
+      "top": 3.73,
+      "width": 1.86,
+      "height": 0.24,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Получай баллы за каждого приведённого друга",
+          "space_before": 1.5,
+          "font_name": "Arial",
+          "font_size": 6.75,
+          "color": "181716",
+          "line_spacing": 8.77
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 0.33,
+      "top": 5.16,
+      "width": 0.72,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.29
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Часть 3 из 3",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "666666",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 9.6,
+      "top": 5.16,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "7",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.38,
+      "width": 4.8,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Сколько можно заработать за год?",
+          "font_name": "Arial",
+          "font_size": 19.5,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 19.5
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.62,
+      "top": 1.43,
+      "width": 4.17,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "БЮДЖЕТ ПРОГРАММЫ",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.62,
+      "top": 1.67,
+      "width": 4.17,
+      "height": 0.58,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "1%",
+          "font_name": "Arial",
+          "font_size": 30.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 42.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.29,
+      "top": 1.43,
+      "width": 4.17,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРИ 180-200 СМЕНАХ В ГОД",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "666666",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.29,
+      "top": 1.67,
+      "width": 4.17,
+      "height": 0.58,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "11-12 тыс.",
+          "font_name": "Arial",
+          "font_size": 30.0,
+          "bold": true,
+          "color": "FF6700",
+          "line_spacing": 42.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.62,
+      "top": 2.29,
+      "width": 4.17,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "от заработной платы за год",
+          "space_before": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 5.29,
+      "top": 2.29,
+      "width": 4.17,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "баллов в год",
+          "space_before": 3.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "color": "181716",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.62,
+      "top": 3.64,
+      "width": 1.87,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Баллы в отдельном порядке",
+          "font_name": "Arial",
+          "font_size": 9.75,
+          "color": "666666",
+          "line_spacing": 13.65
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.73,
+      "top": 3.24,
+      "width": 1.66,
+      "height": 0.29,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПУТЬ К УСПЕХУ",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 2.76,
+      "top": 3.14,
+      "width": 3.1,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "500 смен",
+          "alignment": "CENTER",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": true,
+          "color": "3333FF",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 2.76,
+      "top": 3.34,
+      "width": 3.1,
+      "height": 0.35,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "10 000",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 18.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 25.2
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 6.18,
+      "top": 3.14,
+      "width": 3.1,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "1000+ смен",
+          "alignment": "CENTER",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": true,
+          "color": "3333FF",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 6.18,
+      "top": 3.34,
+      "width": 3.1,
+      "height": 0.35,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "30 000",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 18.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 25.2
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 2.76,
+      "top": 3.71,
+      "width": 3.1,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "баллов",
+          "alignment": "CENTER",
+          "space_before": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "666666",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 6.18,
+      "top": 3.71,
+      "width": 3.1,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "баллов",
+          "alignment": "CENTER",
+          "space_before": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "666666",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 0.62,
+      "top": 4.43,
+      "width": 8.97,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРИМЕР РАСЧЁТА",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 0.62,
+      "top": 4.65,
+      "width": 8.97,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Сотрудник с 500+ сменами: 11-12 тыс. (основные задания) + 10 000 (ПУТЬ К УСПЕХУ) = до 22 000 баллов",
+          "font_name": "Arial",
+          "font_size": 9.75,
+          "color": "181716",
+          "line_spacing": 13.65
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 9.51,
+      "top": 5.16,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "8",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "left": 4.61,
+      "top": 2.0,
+      "width": 0.79,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.28
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "РАЗДЕЛ",
+          "alignment": "CENTER",
+          "space_after": 12.0,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 3.75,
+      "top": 2.53,
+      "width": 2.51,
+      "height": 0.5,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.27
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОДАРКИ",
+          "alignment": "CENTER",
+          "space_after": 12.0,
+          "font_name": "Arial",
+          "font_size": 36.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 36.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.63,
+      "top": 3.37,
+      "width": 2.74,
+      "height": 0.26,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "На что можно обменять баллы",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 13.5,
+          "color": "FFFFFF",
+          "line_spacing": 18.9
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 9.51,
+      "top": 5.16,
+      "width": 0.07,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "9",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "left": 0.42,
+      "top": 0.29,
+      "width": 4.69,
+      "height": 0.25,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "На что можно обменять баллы?",
+          "font_name": "Arial",
+          "font_size": 18.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 18.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.42,
+      "top": 0.77,
+      "width": 9.35,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Баллы можно обменять на подарки в приложении. Программой предусмотрены 3 типа подарков",
+          "font_name": "Arial",
+          "font_size": 9.75,
+          "color": "666666",
+          "line_spacing": 13.65
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.71,
+      "top": 2.17,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 3.82,
+      "top": 1.8,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 6.92,
+      "top": 2.22,
+      "width": 0.12,
+      "height": 0.29,
+      "paragraphs": [
+        {
+          "text": "3",
+          "font_name": "Arial",
+          "font_size": 15.0,
+          "color": "FFFFFF",
+          "line_spacing": 21.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.58,
+      "top": 2.78,
+      "width": 2.68,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОДАРКИ ЗА ЗАДАНИЯ",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 3.69,
+      "top": 2.4,
+      "width": 2.68,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПУТЬ К УСПЕХУ",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "3333FF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 6.79,
+      "top": 2.82,
+      "width": 2.68,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ОХРАНА ТРУДА",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "D41D3C",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 0.69,
+      "top": 3.31,
+      "width": 2.46,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ДОСТУПНЫ С ПЕРВОЙ СМЕНЫ",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "78B832",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 3.79,
+      "top": 2.94,
+      "width": 2.46,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ЭТАП 1 — 500 смен",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "3333FF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 3.79,
+      "top": 3.12,
+      "width": 2.46,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Открывается первый каталог эксклюзивных подарков",
+          "font_name": "Arial",
+          "font_size": 7.5,
+          "color": "181716",
+          "line_spacing": 9.75
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 6.9,
+      "top": 3.36,
+      "width": 2.46,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "СПЕЦИАЛЬНЫЙ ДОСТУП",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "D41D3C",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 0.69,
+      "top": 3.5,
+      "width": 2.46,
+      "height": 0.15,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Можно получить сразу после начала работы",
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "181716",
+          "line_spacing": 10.73
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 3.79,
+      "top": 3.83,
+      "width": 2.46,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ЭТАП 2 — 1000 смен",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "3333FF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 6.9,
+      "top": 3.54,
+      "width": 2.46,
+      "height": 0.3,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Доступны сотрудникам с награждением по охране труда",
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "181716",
+          "line_spacing": 10.73
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 0.69,
+      "top": 4.1,
+      "width": 2.46,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.13
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОЛАТИ ПАЛАТКА",
+          "space_after": 1.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "008CFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 0.69,
+      "top": 4.28,
+      "width": 2.46,
+      "height": 0.15,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Заказ через интернет-магазин с доставкой",
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "color": "181716",
+          "line_spacing": 10.73
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 3.79,
+      "top": 4.01,
+      "width": 2.46,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Открывается расширенный каталог премиум подарков",
+          "font_name": "Arial",
+          "font_size": 7.5,
+          "color": "181716",
+          "line_spacing": 9.75
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 6.88,
+      "top": 4.27,
+      "width": 2.51,
+      "height": 0.14,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Обмен в приложении, получение на объекте",
+          "font_name": "Arial",
+          "font_size": 7.5,
+          "color": "181716",
+          "line_spacing": 9.75
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 3.77,
+      "top": 4.7,
+      "width": 2.51,
+      "height": 0.14,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Обмен в приложении, получение на объекте",
+          "font_name": "Arial",
+          "font_size": 7.5,
+          "color": "181716",
+          "line_spacing": 9.75
+        }
+      ]
+    },
+    "shape-20": {
+      "left": 9.44,
+      "top": 5.2,
+      "width": 0.14,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "10",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "999999",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "left": 0.5,
+      "top": 0.42,
+      "width": 4.73,
+      "height": 0.33,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.35
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОЛАТИ БАЛЛЫ — Главное",
+          "space_after": 18.0,
+          "font_name": "Arial",
+          "font_size": 24.0,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 24.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.67,
+      "top": 1.51,
+      "width": 4.14,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПРИНЦИП",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.67,
+      "top": 1.73,
+      "width": 4.14,
+      "height": 0.22,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Выполняй — Копи — Обменивай",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 15.75
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.27,
+      "top": 1.51,
+      "width": 4.14,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КАТЕГОРИИ",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.27,
+      "top": 1.73,
+      "width": 4.14,
+      "height": 0.22,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "10 категорий заданий",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 15.75
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.67,
+      "top": 2.41,
+      "width": 4.14,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "КУРС",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.67,
+      "top": 2.63,
+      "width": 4.14,
+      "height": 0.22,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "1 балл = 1 рубль",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 15.75
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 5.27,
+      "top": 2.41,
+      "width": 4.14,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "БЮДЖЕТ",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 5.27,
+      "top": 2.63,
+      "width": 4.14,
+      "height": 0.22,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "11-12 тыс. баллов в год",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 15.75
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 0.67,
+      "top": 3.31,
+      "width": 4.14,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ВАЖНО",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.67,
+      "top": 3.53,
+      "width": 4.14,
+      "height": 0.22,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Баллы никогда не сгорают",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 15.75
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 5.27,
+      "top": 3.31,
+      "width": 4.14,
+      "height": 0.16,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.17
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОДАРКИ",
+          "space_after": 4.5,
+          "font_name": "Arial",
+          "font_size": 8.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 11.55
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.27,
+      "top": 3.53,
+      "width": 4.14,
+      "height": 0.22,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.1
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "3 типа подарков в приложении",
+          "font_name": "Arial",
+          "font_size": 11.25,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 15.75
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 0.75,
+      "top": 4.59,
+      "width": 3.6,
+      "height": 0.17,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.15
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "НАЧНИ КОПИТЬ БАЛЛЫ",
+          "space_after": 3.0,
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "666666",
+          "line_spacing": 12.6
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 0.75,
+      "top": 4.81,
+      "width": 3.6,
+      "height": 0.23,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Скачай приложение ПОЛАТИ и начни копить уже сегодня!",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": true,
+          "color": "181716",
+          "line_spacing": 16.8
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 8.43,
+      "top": 4.71,
+      "width": 0.62,
+      "height": 0.2,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.11
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "ПОЛАТИ",
+          "font_name": "Arial",
+          "font_size": 10.5,
+          "bold": true,
+          "color": "FFFFFF",
+          "line_spacing": 14.7
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 9.45,
+      "top": 5.2,
+      "width": 0.13,
+      "height": 0.17,
+      "paragraphs": [
+        {
+          "text": "11",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "color": "FFFFFF",
+          "line_spacing": 12.6
+        }
+      ]
+    }
+  }
+}
