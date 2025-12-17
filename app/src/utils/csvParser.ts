@@ -28,7 +28,7 @@ export async function parseSettings(filePath: string): Promise<Settings> {
     budgetPercent: 1.0,
     inflationRate: 15.0,
     indexationPeriod: 3,
-    simulationYears: 5,
+    simulationYears: 40,
     maxBudgetDeviation: 2.0,
     allowanceRounding: 100,
     pointsRounding: 10,

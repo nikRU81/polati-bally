@@ -23,10 +23,18 @@ export function useCalculation() {
     return years.map(year => {
       // Суммируем баллы для этого года
       const totalBasePoints = tasks.reduce((sum, task) => {
-        // Если задание применяется ко всем годам или конкретно к этому году
-        if (task.appliesToYear === 'all' || task.appliesToYear === String(year)) {
+        const appliesToYearStr = String(task.appliesToYear);
+
+        if (appliesToYearStr === 'all') {
           return sum + (task.basePoints * task.probability);
         }
+
+        // Обработка списков годов через split(';')
+        const taskYears = appliesToYearStr.split(';').map(y => parseInt(y.trim(), 10));
+        if (taskYears.includes(year)) {
+          return sum + (task.basePoints * task.probability);
+        }
+
         return sum;
       }, 0);
 
