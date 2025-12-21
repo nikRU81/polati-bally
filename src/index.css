@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+@theme {
+  --color-polati-blue: #2563EB;
+  --color-polati-blue-dark: #1D4ED8;
+  --color-polati-orange: #F97316;
+  --color-polati-green: #22C55E;
+  --color-polati-bg-light: #F8FAFC;
+}
+
 :root {
   font-family: 'Inter', system-ui, sans-serif;
 }
